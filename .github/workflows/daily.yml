@@ -28,7 +28,7 @@ jobs:
 
       # ---- Per-script settings ----
       # CONTACTS_URL: leave out to use the default view for this list
-      MOVE_CONTACTS: "false"                 # "false" for the first test run, then "true"
+      MOVE_CONTACTS: "true"                 # "false" for the first test run, then "true"
       FOLDER_NAME: "FSBO Leads Week of {MONDAY}"   # {MONDAY} becomes month.day.year, e.g. "FSBO Leads Week of 11.9.26"
       LIST_LABEL: "FSBO"              # only used in log lines
       FOLDER_PARENT: "FSBO"           # parent folder chosen when the script creates the folder
